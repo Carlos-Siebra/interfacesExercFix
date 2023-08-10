@@ -30,5 +30,12 @@ public class Installment {
 	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
+
+	@Override
+	public String toString() {
+		return "Installment [Date=" + Date + ", amount=" + amount + "]";
+	}
+	
+	
 	
 }
